@@ -20,8 +20,6 @@ Raven.config(sentryUrl, {
   }
 }).install();
 
-console.log(window.thing.doesnotexist);
-
 ReactDom.render(
   routes,
   document.getElementById('app')
